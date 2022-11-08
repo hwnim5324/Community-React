@@ -1,9 +1,9 @@
 const Footer = (): JSX.Element => {
-    return(
-        <footer>
+	return(
+		<footer>
             푸터
-        </footer>
-    );
-}
+		</footer>
+	);
+};
 
 export default Footer;

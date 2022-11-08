@@ -1,11 +1,11 @@
-import Layout from "../../components/Layout";
+import Layout from '../../components/Layout';
 
 const Main = (): JSX.Element => {
-    return (
-        <Layout>
+	return (
+		<Layout>
             Main
-        </Layout>
-    );
-}
+		</Layout>
+	);
+};
 
 export default Main;
