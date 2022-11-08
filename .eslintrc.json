@@ -17,7 +17,8 @@
     },
     "plugins": [
         "react",
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "@emotion"
     ],
     "rules": {
         "indent": [
@@ -36,6 +37,8 @@
             "error",
             "always"
         ],
-        "react/react-in-jsx-scope": "off"
+        "react/react-in-jsx-scope": "off",
+        "@emotion/jsx-import": "error",
+        "react/no-unknown-property": ["error", { "ignore": ["css"] }]
     }
 }

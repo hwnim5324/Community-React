@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "@emotion/eslint-plugin": "^11.10.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@types/eslint": "^8",
     "@types/testing-library__jest-dom": "^5",
