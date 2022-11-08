@@ -6,15 +6,15 @@ interface Props {
 }
 
 const Layout: React.FC<Props> = ( props: Props ) => {
-    return(
-        <>
-            <Header />
-            <main>
-                {props.children}
-            </main>
-            <Footer />
-        </>
-    );
-}
+	return(
+		<>
+			<Header />
+			<main>
+				{props.children}
+			</main>
+			<Footer />
+		</>
+	);
+};
 
 export default Layout;
