@@ -1,4 +1,4 @@
-const Footer: React.FC = () => {
+const Footer = (): JSX.Element => {
     return(
         <footer>
             푸터

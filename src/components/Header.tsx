@@ -1,7 +1,9 @@
-const Header:React.FC = () => {
+import NavBar from "./NavBar";
+
+const Header = (): JSX.Element => {
     return(
         <header>
-            헤더
+            <NavBar />
         </header>
     );
 }
