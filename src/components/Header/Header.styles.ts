@@ -1,4 +1,5 @@
 import { css } from '@emotion/react';
+import { COLORS } from '../../styles/Colors';
 
 export const HeaderStyle = css`
     position: fixed;
@@ -7,4 +8,5 @@ export const HeaderStyle = css`
     right: 0;
 
     height: 75px;
+    background: ${COLORS.WHITE_700};
 `;

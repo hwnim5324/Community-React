@@ -19,7 +19,7 @@ const NavBar = (): JSX.Element => {
 		<nav css={NavStyle}>
 			<ul css={NavBarUlStyle}>
 				<Nav link='/' text='홈' />
-				<Nav link='/' text='로그인' />
+				<Nav link='/signin' text='로그인' />
 			</ul>
 		</nav>
 	);

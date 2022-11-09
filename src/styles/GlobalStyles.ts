@@ -3,15 +3,14 @@ import { COLORS } from './Colors';
 import emotionReset from 'emotion-reset';
 
 const GlobalStyles = css`
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap');
+
     ${emotionReset}
     *, *::after, *::before {
         box-sizing: border-box;
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
-        font-smoothing: antialiased;
     }
-
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap');
 
     html{
         font-size: 12px;
@@ -20,17 +19,16 @@ const GlobalStyles = css`
     body {
         margin: 0;
         padding: 0;
-        font-size: 1.6rem;
-        min-height: 100vh;
+        font-size: 1.4rem;
+        min-height: calc(100vh - 75px);
         width: 100%;
         background-color: ${COLORS.WHITE_700};
         color: ${COLORS.BLACK_700};
-        font-size: 1.6rem;
     }
 
     #root {
         font-family: 'Noto Sans KR', sans-serif;
-        height: 100%;
+        height: calc(100vh - 75px);
     }
 
     ul, ol {
