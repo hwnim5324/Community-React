@@ -1,6 +1,8 @@
+import { FooterStyle } from './Footer.styles';
+
 const Footer = (): JSX.Element => {
 	return(
-		<footer>
+		<footer css={FooterStyle}>
             푸터
 		</footer>
 	);

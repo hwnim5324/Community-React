@@ -1,8 +1,9 @@
 import NavBar from '../NavBar/NavBar';
+import { HeaderStyle } from './Header.styles';
 
 const Header = (): JSX.Element => {
 	return(
-		<header>
+		<header css={HeaderStyle}>
 			<NavBar />
 		</header>
 	);

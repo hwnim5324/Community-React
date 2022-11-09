@@ -1,16 +1,25 @@
-import { css } from '@emotion/react';
 import { NavLink } from 'react-router-dom';
+import { NavStyle, NavBarUlStyle, NavBarLiStyle, NavBarSpanStyle } from './NavBar.styles';
+
+interface Props {
+	link: string,
+	text: string
+}
+
+const Nav: React.FC<Props> = ( props: Props ) => {
+	return (
+		<li css={NavBarLiStyle}>
+			<NavLink to={props.link}><span css={NavBarSpanStyle}>{props.text}</span></NavLink>
+		</li>
+	);
+};
 
 const NavBar = (): JSX.Element => {
 	return (
-		<nav>
-			<p css={css`
-				font-size: 60px;
-			`}>hi</p>
-			<ul>
-				<li>
-					<NavLink to='/'>홈</NavLink>
-				</li>
+		<nav css={NavStyle}>
+			<ul css={NavBarUlStyle}>
+				<Nav link='/' text='홈' />
+				<Nav link='/' text='로그인' />
 			</ul>
 		</nav>
 	);

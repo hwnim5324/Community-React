@@ -49,6 +49,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/testing-library__jest-dom", "npm:5.14.5"],\
             ["@typescript-eslint/eslint-plugin", "virtual:a31a21a6e00d5ad10110b216a09e9f7f764123356925d82a32dd33109d8e500427394cb4e1b94fee61a97c3f2f647d9c92d3cf7dbf3019d095c193ade00c57bd#npm:5.42.1"],\
             ["@typescript-eslint/parser", "virtual:a31a21a6e00d5ad10110b216a09e9f7f764123356925d82a32dd33109d8e500427394cb4e1b94fee61a97c3f2f647d9c92d3cf7dbf3019d095c193ade00c57bd#npm:5.42.1"],\
+            ["emotion-reset", "virtual:a31a21a6e00d5ad10110b216a09e9f7f764123356925d82a32dd33109d8e500427394cb4e1b94fee61a97c3f2f647d9c92d3cf7dbf3019d095c193ade00c57bd#npm:3.0.1"],\
             ["eslint", "npm:8.27.0"],\
             ["eslint-config-react-app", "virtual:a31a21a6e00d5ad10110b216a09e9f7f764123356925d82a32dd33109d8e500427394cb4e1b94fee61a97c3f2f647d9c92d3cf7dbf3019d095c193ade00c57bd#npm:7.0.1"],\
             ["eslint-plugin-react", "virtual:a31a21a6e00d5ad10110b216a09e9f7f764123356925d82a32dd33109d8e500427394cb4e1b94fee61a97c3f2f647d9c92d3cf7dbf3019d095c193ade00c57bd#npm:7.31.10"],\
@@ -7490,6 +7491,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/testing-library__jest-dom", "npm:5.14.5"],\
             ["@typescript-eslint/eslint-plugin", "virtual:a31a21a6e00d5ad10110b216a09e9f7f764123356925d82a32dd33109d8e500427394cb4e1b94fee61a97c3f2f647d9c92d3cf7dbf3019d095c193ade00c57bd#npm:5.42.1"],\
             ["@typescript-eslint/parser", "virtual:a31a21a6e00d5ad10110b216a09e9f7f764123356925d82a32dd33109d8e500427394cb4e1b94fee61a97c3f2f647d9c92d3cf7dbf3019d095c193ade00c57bd#npm:5.42.1"],\
+            ["emotion-reset", "virtual:a31a21a6e00d5ad10110b216a09e9f7f764123356925d82a32dd33109d8e500427394cb4e1b94fee61a97c3f2f647d9c92d3cf7dbf3019d095c193ade00c57bd#npm:3.0.1"],\
             ["eslint", "npm:8.27.0"],\
             ["eslint-config-react-app", "virtual:a31a21a6e00d5ad10110b216a09e9f7f764123356925d82a32dd33109d8e500427394cb4e1b94fee61a97c3f2f647d9c92d3cf7dbf3019d095c193ade00c57bd#npm:7.0.1"],\
             ["eslint-plugin-react", "virtual:a31a21a6e00d5ad10110b216a09e9f7f764123356925d82a32dd33109d8e500427394cb4e1b94fee61a97c3f2f647d9c92d3cf7dbf3019d095c193ade00c57bd#npm:7.31.10"],\
@@ -8696,6 +8698,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/emojis-list-npm-3.0.0-7faa48e6fd-ddaaa02542.zip/node_modules/emojis-list/",\
           "packageDependencies": [\
             ["emojis-list", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["emotion-reset", [\
+        ["npm:3.0.1", {\
+          "packageLocation": "./.yarn/cache/emotion-reset-npm-3.0.1-061e1e27b7-788cfbf6f3.zip/node_modules/emotion-reset/",\
+          "packageDependencies": [\
+            ["emotion-reset", "npm:3.0.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:a31a21a6e00d5ad10110b216a09e9f7f764123356925d82a32dd33109d8e500427394cb4e1b94fee61a97c3f2f647d9c92d3cf7dbf3019d095c193ade00c57bd#npm:3.0.1", {\
+          "packageLocation": "./.yarn/__virtual__/emotion-reset-virtual-d88e4ab563/0/cache/emotion-reset-npm-3.0.1-061e1e27b7-788cfbf6f3.zip/node_modules/emotion-reset/",\
+          "packageDependencies": [\
+            ["emotion-reset", "virtual:a31a21a6e00d5ad10110b216a09e9f7f764123356925d82a32dd33109d8e500427394cb4e1b94fee61a97c3f2f647d9c92d3cf7dbf3019d095c193ade00c57bd#npm:3.0.1"],\
+            ["@emotion/react", "virtual:a31a21a6e00d5ad10110b216a09e9f7f764123356925d82a32dd33109d8e500427394cb4e1b94fee61a97c3f2f647d9c92d3cf7dbf3019d095c193ade00c57bd#npm:11.10.5"],\
+            ["@types/emotion__react", null]\
+          ],\
+          "packagePeers": [\
+            "@emotion/react",\
+            "@types/emotion__react"\
           ],\
           "linkType": "HARD"\
         }]\
