@@ -5,6 +5,13 @@ export const COLORS = {
 	BLACK_400: '#737373',
 	BLACK_300: '#B2B2B2',
 	BLACK_200: '#D9D9D9',
+
+	GRAY_700: '#ECECEC',
+	GRAY_600: '#F3F3F3',
+	GRAY_500: '#F9F9F9',
+	GRAY_400: '#FAFAFA',
+	GRAY_300: '#FCFCFC',
+	GRAY_200: '#FDFDFD',
     
 	WHITE_700: '#ffffff',
 

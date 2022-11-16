@@ -4,6 +4,7 @@ import { COLORS } from '../../styles/Colors';
 export const NavStyle = css`
     height: 100%;
     border-bottom: 1px solid ${COLORS.BLACK_200};
+    background-color: ${COLORS.WHITE_700};
 `;
 
 export const NavBarUlStyle = css`
@@ -20,10 +21,6 @@ export const NavBarLiStyle = css`
     height: 100%;
     width: 100px;
     margin: 0;
-
-    :last-child{
-        float: right;
-    }
 `;
 
 export const NavBarSpanStyle = css`

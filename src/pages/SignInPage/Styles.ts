@@ -43,7 +43,7 @@ export const ButtonStyle = css`
     background-color: ${COLORS.BLUE_600};
     border: none;
     border-radius: 5px;
-    margin-top: 40px;
+    margin-top: 30px;
 
     :hover{
         background-color: ${COLORS.BLUE_700};

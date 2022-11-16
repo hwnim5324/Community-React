@@ -1,10 +1,16 @@
 import { useForm } from 'react-hook-form';
 import Layout from '../../components/Layout/Layout';
 import { SectionStyle, FormStyle, LabelStyle, InputStyle, ButtonStyle } from './Styles';
+import UsersNav from './/components/UsersNav';
+
+interface Data {
+	userId: string,
+	userPw: string
+}
 
 const SignInPage = (): JSX.Element => {
-	const { register, handleSubmit } = useForm();
-	const SignInSubmitHandler = ( data: any ) => {
+	const { register, handleSubmit } = useForm<Data>();
+	const SignInSubmitHandler = ( data: Data ) => {
 		alert(JSON.stringify(data));
 		//통신 진행.
 	};
@@ -21,6 +27,7 @@ const SignInPage = (): JSX.Element => {
 						<label css={LabelStyle}>
 							<input css={InputStyle} type='password' placeholder='비밀번호를 입력하세요.' {...register('userPw')} required/>
 						</label>
+						<UsersNav />
 						<input css={ButtonStyle} type='submit' value='로그인' />
 					</form>
 				</div>

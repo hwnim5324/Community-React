@@ -20,7 +20,7 @@ const GlobalStyles = css`
         margin: 0;
         padding: 0;
         font-size: 1.4rem;
-        min-height: calc(100vh - 75px);
+        min-height: calc(100vh - 112px);
         width: 100%;
         background-color: ${COLORS.WHITE_700};
         color: ${COLORS.BLACK_700};
@@ -28,7 +28,7 @@ const GlobalStyles = css`
 
     #root {
         font-family: 'Noto Sans KR', sans-serif;
-        height: calc(100vh - 75px);
+        height: calc(100vh - 112px);
     }
 
     ul, ol {
