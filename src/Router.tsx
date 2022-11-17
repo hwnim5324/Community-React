@@ -4,6 +4,7 @@ import SignInPage from './pages/SignInPage/Index';
 import SignUpPage from './pages/SignUpPage/Index';
 import FindIdPage from './pages/FindIdPage/Index';
 import FindPwPage from './pages/FindPwPage/Index';
+import NewPostPage from './pages/NewPostPage/Index';
 
 function Router() {
 	return (
@@ -13,6 +14,7 @@ function Router() {
 			<Route path='/signup' element={<SignUpPage />}/>
 			<Route path='/findid' element={<FindIdPage />}/>
 			<Route path='/findpw' element={<FindPwPage />}/>
+			<Route path='/newpost' element={<NewPostPage />}/>
 		</Routes>
 	);
 }

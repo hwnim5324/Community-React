@@ -6,6 +6,7 @@ export const HeaderStyle = css`
     top: 0;
     left: 0;
     right: 0;
+    z-index: 10;
 
     height: 112px;
     background: ${COLORS.WHITE_700};
