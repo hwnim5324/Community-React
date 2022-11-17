@@ -2,7 +2,7 @@ import { css } from '@emotion/react';
 
 export const UserNavStyle = css`
     float: left;
-    width: 310px;
+    width: 460px;
     font-size: 14px;
     margin-top: 30px;
 `;

@@ -2,7 +2,7 @@ import { css } from '@emotion/react';
 import { COLORS } from '../../styles/Colors';
 
 export const NavStyle = css`
-    height: 100%;
+    height: 56px;
     border-bottom: 1px solid ${COLORS.BLACK_200};
     background-color: ${COLORS.WHITE_700};
 `;

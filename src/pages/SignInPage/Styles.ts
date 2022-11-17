@@ -6,46 +6,53 @@ export const SectionStyle = css`
     justify-content: center;
     align-items: center;
     height: 100%;
+    margin-top: calc((100% - 340px)/4);
 `;
 
 export const FormStyle = css`
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    width: 500px;
+    width: 600px;
 `;
 
-export const LabelStyle = css`
-    display: block;
-    margin: 20px 0 0 0;
+export const TitleStyle = css`
+    width: 460px;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 20px;
 `;
 
 export const InputStyle = css`
-    display: block;
-    width: 320px;
-    height: 46px;
-    
+    width: 460px;
+    height: 52px;
     font-size: 16px;
-    border: none;
-    border-bottom: 1px solid ${COLORS.BLACK_400};
+    border: 1px solid ${COLORS.BLACK_200};
+    border-radius: 8px;
     outline: 0;
-    padding-left: 6px;
-    margin-top: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+
+    ::placeholder{
+        color: ${COLORS.BLACK_200};
+    }
+    :focus{
+        outline: 1px solid ${COLORS.BLACK_500};
+    }
 `;
 
 export const ButtonStyle = css`
-    width: 320px;
-    height: 46px;
-
+    width: 460px;
+    height: 52px;
     font-size: 16px;
+    border-radius: 8px;
+    border: 0;
+    margin-top: 50px;
     color: ${COLORS.WHITE_700};
-    background-color: ${COLORS.BLUE_600};
-    border: none;
-    border-radius: 5px;
-    margin-top: 30px;
+    background-color: ${COLORS.BLACK_700};
+    cursor: pointer;
 
     :hover{
-        background-color: ${COLORS.BLUE_700};
+        background-color: ${COLORS.BLACK_600};
     }
 `;

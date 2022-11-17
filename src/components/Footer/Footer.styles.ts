@@ -7,4 +7,5 @@ export const FooterStyle = css`
     padding: 3rem 10% 3rem 10%;
     background: ${COLORS.GRAY_400};
     border-top: 1px solid ${COLORS.GRAY_700};
+    z-index: 1;
 `;
